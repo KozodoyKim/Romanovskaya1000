@@ -1,0 +1,61 @@
+.input-name {
+    display: inline;
+    position: relative;
+    left: -30%;
+}
+.input-amount {
+    display: inline;
+position: relative;
+left: -37%;
+}
+
+.form-input {
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    background-color: rgb(247, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.note-form {
+    margin: 10px;
+    width: 80%;
+    border-color: brown;
+    border-radius: 10px;
+    height: 150px;
+}
+
+
+.note-name-form {
+width: 50%;
+position: relative;
+top: -30px;
+left: 45%;
+}
+
+.note-amount-form {
+    width: 20%;
+    position: relative;
+    top: -30px;
+    left: 45%;
+}
+
+
+.btn-outline-success
+{
+    position: relative;
+    font-size: 15px;
+    border-radius: 10px;
+    left: 30%;
+}
+
+.btn-close
+{
+    position: relative;
+    left: 160px;
+    top: -30px;
+}
