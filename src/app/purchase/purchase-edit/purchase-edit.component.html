@@ -12,24 +12,26 @@
         <p class="input-name">Название продукта:</p>
         <input class="form-control note-name-form"
          type="text"
-         
+
           formControlName="name">
 
           <p class="input-amount">Количество:</p>
           <input class="form-control note-amount-form"
            type="text"
-           
-            formControlName="amount">
 
-        <button 
+            formControlName="amount">
+        <div class = "row mt-3">
+        <button
        type="submit"
         class="btn btn-outline-success"
         >Подтвердить</button>
-
-        <button 
+      </div>
+      <div class = "row mt-3">
+        <button
         type="button"
          class="btn btn-outline-danger"
          (click)="delete()">Удалить</button>
+        </div>
     </form>
 
 </div>

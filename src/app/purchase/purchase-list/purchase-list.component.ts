@@ -14,9 +14,9 @@ export class PurchaseListComponent implements OnInit {
 
   purchasesFree: Purchase[] = [];
   purchasesNotFree: Purchase[] = [];
-  
+
   constructor(
-    private purchaseSevice: PurchaseService, 
+    private purchaseSevice: PurchaseService,
     private router: Router
   ) { }
 
@@ -51,6 +51,10 @@ export class PurchaseListComponent implements OnInit {
   {
       this.router.navigate([this.router.url, 'add'])
   }
+  linkToEdit()
+  {
+      this.router.navigate([this.router.url, 'edit/:id'])
+  }
 
   async changePurchaseStatus(id: any)
   {
@@ -65,7 +69,7 @@ export class PurchaseListComponent implements OnInit {
     }
     catch(err)
     {console.log(err)}
-  
+
 
     this.getData()
   }
